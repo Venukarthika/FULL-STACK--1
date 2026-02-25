@@ -1,0 +1,13 @@
+export const PROJECT_STATUS = {
+  DRAFT: 'Draft',
+  IN_PROGRESS: 'In Progress',
+  SUBMITTED: 'Submitted',
+  APPROVED: 'Approved',
+}
+
+export const STATUS_OPTIONS = [
+  PROJECT_STATUS.DRAFT,
+  PROJECT_STATUS.IN_PROGRESS,
+  PROJECT_STATUS.SUBMITTED,
+  PROJECT_STATUS.APPROVED,
+]
