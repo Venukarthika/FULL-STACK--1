@@ -7,7 +7,7 @@ import {
   FaSortAmountDown,
 } from 'react-icons/fa'
 import { useProjects } from '../contexts/ProjectsContext.jsx'
-import StatCard from '../components/shared/StatCard.jsx'
+import StatCard from '../components/StatCard.jsx'
 import { STATUS_OPTIONS } from '../constants/projectStatus.js'
 
 const ALL = 'All'

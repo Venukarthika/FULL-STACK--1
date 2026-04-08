@@ -1,6 +1,6 @@
 import { useAuth } from '../contexts/AuthContext.jsx'
 import { useProjects } from '../contexts/ProjectsContext.jsx'
-import StatCard from '../components/shared/StatCard.jsx'
+import StatCard from '../components/StatCard.jsx'
 
 export default function OverviewPage() {
   const { user } = useAuth()
